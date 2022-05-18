@@ -1,4 +1,4 @@
-import stocks from "../components/stocks.js";
+import stocks from "../data/stocks.js";
 import { Link } from "react-router-dom";
 
 const Dashboard = () => {

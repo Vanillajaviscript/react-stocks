@@ -1,8 +1,9 @@
-
+import {Link} from "react-router-dom";
+import Dashboard from "../pages/Dashboard";
 const Home = () => {
     return(
         <div className="home">
-            <h1>The home page</h1>
+           <Link to="/stocks" element={<Dashboard />}>See stocks</Link>
         </div>
     )
 }

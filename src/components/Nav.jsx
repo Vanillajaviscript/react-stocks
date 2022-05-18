@@ -4,7 +4,7 @@ const Nav = () => {
     return (
         <div className="nav">
             <Link to={"/"}>
-                <div>Stocks</div>
+                <div>Home</div>
             </Link>
             <Link to={"/about"}>
                 <div>About</div>

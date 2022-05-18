@@ -5,26 +5,31 @@ const Dashboard = () => {
 
     return (
         <div className="dashboard">
+        <table>
+            <tr>
+                <th>Company Name</th>
+                <th>Price</th>
+                <th>Change</th>
+                <th>High</th>
+                <th>Low</th>
+                <th>Open</th>
+            </tr>
             {stocks.map(({name, symbol, lastPrice, change, high, low, open}) => {
             return (
-               <Link key={symbol} to={`/price/${symbol}`}>
-                   <h1>{name}</h1>
-                   <h2>{symbol}</h2>
-                    <table>
-                        <tbody>
-                            <tr>
-                            <td>{lastPrice}</td>
-                            <td>{change}</td>
-                            <td>{high}</td>
-                            <td>{low}</td>
-                            <td>{open}</td>
-                            </tr>
-                        </tbody>
-                    </table>
-               </Link>
-               )
+            <tr>
+                <td className="name">
+                    <Link className="name" key={symbol} to={`/price/${symbol}`}>{name}</Link>
+                </td>
+                <td>${lastPrice}</td>
+                <td>{change}</td>
+                <td>${high}</td>
+                <td>${low}</td>
+                <td>${open}</td>
+            </tr>
+            )
             })}
-        </div>
+        </table>
+    </div>
     )
 }
 

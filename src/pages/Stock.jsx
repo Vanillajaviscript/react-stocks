@@ -8,11 +8,11 @@ const Stock = () => {
     return (
         <div className="stock">
             <h1>{stock.name} ({stock.symbol})</h1>
-            <h3>Last Price: {stock.lastPrice}</h3>
+            <h3>Last Price: ${stock.lastPrice}</h3>
             <h3>Change: {stock.change}</h3>
-            <h3>High: {stock.high}</h3>
-            <h3>Low: {stock.low}</h3>
-            <h3>Open: {stock.open}</h3>
+            <h3>High: ${stock.high}</h3>
+            <h3>Low: ${stock.low}</h3>
+            <h3>Open: ${stock.open}</h3>
         <Link to="/stocks">Back to stocks</Link>
         </div>
     )

@@ -1,6 +1,10 @@
 * {
     font-family: 'Noto Sans', sans-serif;
   }
+
+  .home {
+    font-size: 10rem;
+  }
   
   .nav {
     display: flex;
@@ -14,4 +18,34 @@
   .nav a {
     color: white;
     text-decoration: none;
+  }
+  table {
+    table-layout:fixed;
+    border: 3px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    text-decoration: none;
+    width: 100%;
+  }
+  .name {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  th, td {
+    padding: 15px;
+    border: 1px solid black;
+  }
+
+  a {
+  text-decoration: none;
+  color: black;
+  }
+
+  a:hover {
+  color: red;
+  }
+
+  th {
+    background-color: rgba(0, 0, 0, 0.88);
+    color: white;
+    border: 1px solid white;
   }

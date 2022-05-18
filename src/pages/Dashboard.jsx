@@ -18,7 +18,7 @@ const Dashboard = () => {
             return (
             <tr>
                 <td className="name">
-                    <Link className="name" key={symbol} to={`/price/${symbol}`}>{name}</Link>
+                    <Link className="link" key={symbol} to={`/price/${symbol}`}>{name}</Link>
                 </td>
                 <td>${lastPrice}</td>
                 <td>{change}</td>

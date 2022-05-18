@@ -1,6 +1,19 @@
 * {
     font-family: 'Noto Sans', sans-serif;
   }
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+  .wallstreet-bets {
+    width: 100%;
+  }
+#nav-image {
+  width: 80px;
+  border-radius: 30px;
+  padding-bottom: 20px;
+  box-shadow: 0px 10px 10px 2px rgb(255, 0, 0);
+}
 
   .home {
     font-size: 5rem;

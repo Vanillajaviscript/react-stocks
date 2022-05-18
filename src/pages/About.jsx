@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <div className="about">
-            <h1>The about page</h1>
+            <img className="wallstreet-bets" src="https://d1lss44hh2trtw.cloudfront.net/assets/article/2021/04/16/wallstreetbets_feature.jpg"  alt="wallstreet bets logo"/>
         </div>
     )
 }
